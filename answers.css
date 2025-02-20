@@ -1,0 +1,48 @@
+.headline {
+    font-size: 24px;
+    padding: 16px 0px 16px 0px;
+}
+
+img {
+    width: 100px;
+    height: fit-content;
+}
+
+#pc {
+    display: flex;
+    border: solid 4px pink;
+}
+
+.pc-2 {
+    gap: 16px;
+}
+
+.pc-3 {
+    flex-direction: column; 
+    gap: 16px;
+    padding: 16px;
+}
+
+.pc-4 {
+    justify-content: space-between;
+    padding: 0px 16px 0px 16px;
+}
+
+.pc-5 {
+    justify-content: flex-end;
+    padding: 16px;
+    gap: 16px;
+}
+
+.pc-6 {
+    justify-content: space-evenly;
+}
+
+.pc-7 {
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    padding-right: 16px;
+}
